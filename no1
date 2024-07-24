@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    pair<int, int> myPair[2];
+    // Có 2 cách khởi tạo pair
+    myPair[0] = make_pair(1, 2);
+    myPair[1] = {2, 3};
+
+    cout << myPair[0].first << " " << myPair[0].second << endl;
+    // Kết quả: 1 2
+
+    return 0;
+}
